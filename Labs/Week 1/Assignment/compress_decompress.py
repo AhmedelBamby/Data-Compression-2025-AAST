@@ -1,3 +1,38 @@
+"""
+===============================================================================
+                            DATA COMPRESSION COURSE
+===============================================================================
+
+Week 1:
+Assignment 1: FLAC Audio Compression and Decompression
+
+Importance of FLAC:
+FLAC (Free Lossless Audio Codec) is crucial for preserving audio quality while 
+reducing file sizes. It is widely used in professional audio production, music 
+archiving, and high-fidelity audio systems where maintaining original sound 
+quality is essential. FLAC provides significant storage savings without any 
+loss of audio information, making it ideal for backup and distribution purposes.
+
+Why FLAC is Used:
+FLAC is preferred over other compression formats because it offers the perfect 
+balance between file size reduction and quality preservation. Unlike MP3 or AAC, 
+FLAC doesn't discard any audio data during compression, ensuring the original 
+recording can be perfectly reconstructed. It provides compression ratios of 
+30-70% while maintaining 100% audio fidelity, making it the standard choice 
+for audiophiles and professional applications.
+
+Why FLAC is Called Lossless Compression:
+FLAC is called "lossless" because it can perfectly reconstruct the original 
+audio file from the compressed version without any data loss. The compression 
+algorithm identifies and removes only redundant information, not actual audio 
+content. When you decompress a FLAC file, you get back exactly the same audio 
+data as the original file, bit-for-bit identical. This is different from 
+"lossy" compression methods that permanently remove audio information to 
+achieve smaller file sizes.
+
+===============================================================================
+"""
+
 import soundfile as sf
 import os
 
